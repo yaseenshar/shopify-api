@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 public class GoogleSheetsLiveTest {
     private static Sheets sheetsService;
-    private static String SPREADSHEET_ID = "1DFJ0BtVO1baZidag0mJW-TRUJLqDyLpP-ZDkLiKXnTQ";
+    private final static String SPREADSHEET_ID = "1DFJ0BtVO1baZidag0mJW-TRUJLqDyLpP-ZDkLiKXnTQ";
 
     @BeforeClass
     public static void setup() throws GeneralSecurityException, IOException {

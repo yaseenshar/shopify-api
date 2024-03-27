@@ -20,7 +20,7 @@ public class OrderService {
 
         OrderEntity orderEntity = mapToOrderEntity(order);
 
-        var order1 = orderRepository.save(orderEntity);
+        orderRepository.save(orderEntity);
     }
 
     private OrderEntity mapToOrderEntity(Order order) {
